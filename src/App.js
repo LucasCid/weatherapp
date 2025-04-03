@@ -44,19 +44,23 @@ function App() {
 
   return (
     <>
+
     <div className="container input-container">
        <h2>Weather App</h2>
        <div className='row'>
         
         <input
        placeholder='   Buscar ciudad🔎' 
+
           onKeyDown={handleSearch}
           type='text'
           autoFocus
        />
+
        
         
        
+
        </div>
     </div>
 
